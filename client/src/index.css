@@ -1,0 +1,78 @@
+body {
+  background: #e9eff6;
+}
+
+.page-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-header {
+  background: #fff;
+  border-bottom: 1px solid #b2b2b2;
+  text-align: center;
+}
+
+.page-title {
+  line-height: 60px;
+}
+
+.page-main {
+  flex: 1;
+  padding: 0 30px;
+}
+
+.message-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin: 15px 0;
+}
+
+.message-item.other {
+  align-items: flex-start;
+}
+
+.message {
+  padding: 10px 20px;
+  background: #fff;
+  border: 1px solid #b2b2b2;
+  border-radius: 2vh;
+}
+
+.page-footer {
+  height: 60px;
+  background: #fff;
+  border-top: 1px solid #b2b2b2;
+}
+
+.page-interface {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.page-interface > [type="text"] {
+  background: #d2d9e0;
+  border: 1px solid #b2b2b2;
+  flex: 1;
+}
+
+.page-interface > [type="submit"] {
+  margin-left: 20px;
+}
+
+.card {
+  background: #fff;
+  margin: 200px auto 0;
+  max-width: 400px;
+  padding: 12px;
+  border: 1px solid #b2b2b2;
+}
+
+.card > header {
+  text-align: center;
+  padding: 10px 0 20px;
+}
